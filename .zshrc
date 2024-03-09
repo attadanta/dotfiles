@@ -88,6 +88,8 @@ else
   export EDITOR='mvim'
 fi
 
+export PATH=$PATH:$HOME/opt
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
