@@ -9,6 +9,9 @@ setopt INC_APPEND_HISTORY
 # Initialize completion
 autoload -U compinit; compinit
 
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
+
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
