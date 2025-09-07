@@ -1,2 +1,6 @@
 theme = catppuccin-mocha
 font-thicken = 1
+cursor-style = block
+cursor-style-blink = false
+shell-integration-features = no-cursor
+cursor-text = black
